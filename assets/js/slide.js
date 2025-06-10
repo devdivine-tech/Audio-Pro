@@ -10,15 +10,15 @@ const swiper = new Swiper(".mySwiper", {
 
   breakpoints: {
     300: {
-      slidesPerView: 0.5,
+      slidesPerView: "auto",
       centeredSlides: true,
     },
     420: {
-      slidesPerView: 0.8,
+      slidesPerView: "auto",
       centeredSlides: true,
     },
     640: {
-      slidesPerView: 1.1,
+      slidesPerView: "auto",
       centeredSlides: true,
     },
     1024: {

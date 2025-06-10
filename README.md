@@ -31,7 +31,7 @@ Check out my work with **Bang & Olufsen’s BeoSound 2**! 🎶
 
 I had the opportunity to design a visually stunning website that showcases the **BeoSound 2** speaker’s sleek design and incredible audio capabilities. The project focuses on delivering a modern and immersive experience for audiophiles.
 
-[Live Demo](#) - Coming soon!
+[Live Demo](https:audio-pro.netlify.app) - Check it Out!
 
 ---
 

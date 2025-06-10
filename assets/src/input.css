@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+@theme {
+  --breakpoint-xs: 480px;
+  --breakpoint-xxs: 320px;
+
+  --color-gold: #fbd6aa;
+  --color-dark-gold: #fbd6aa25;
+  --color-dark-gray: #7C9A94;
+  --color-light-gray: #A9C6C1;
+  --color-dark-green: #7ba98d;
+  --color-light-green: #d8f3e4;
+  --color-dark-blue: #4f6984;
+  --color-light-blue: #cbeafc;
+  --color-dark-gradient: #3a8ba1;
+  --color-light-gradient: #e8cbb6;
+  --color-dark-orange: #df7527;
+  --color-light-orange: #f5ae70;
+}

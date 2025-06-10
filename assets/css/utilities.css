@@ -1,0 +1,60 @@
+.cssbuttons-io-button {
+  background: #fff;
+  font-family: inherit;
+  padding: 0.1em;
+  padding-left: 1em;
+  font-weight: 500;
+  border-radius: 1000rem;
+  border: none;
+  letter-spacing: 0.05em;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  position: relative;
+  height: 2.8em;
+  padding-right: 1.7em;
+  cursor: pointer;
+}
+
+.cssbuttons-io-button .icon {
+  background: black;
+  margin-left: 0.3em;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 2.6em;
+  width: 2.6em;
+  border-radius: 2em;
+  right: 0.2em;
+  transition: all 0.3s;
+}
+
+.cssbuttons-io-button:hover .icon {
+  width: calc(100% - 0.4em);
+}
+
+.cssbuttons-io-button .icon span {
+  display: none;
+  white-space: nowrap;
+  padding-inline: 0.6em;
+  font-weight: 700;
+}
+
+.cssbuttons-io-button .icon:hover span {
+  display: inline-block;
+}
+
+.cssbuttons-io-button .icon svg {
+  width: 1.1em;
+  transition: transform 0.3s;
+  color: #fff;
+}
+
+.cssbuttons-io-button:hover .icon svg {
+  transform: translateX(0.1em);
+}
+
+.cssbuttons-io-button:active .icon {
+  transform: scale(0.95);
+}

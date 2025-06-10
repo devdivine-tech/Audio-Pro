@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+*::-webkit-scrollbar {
+  display: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", sans-serif;
+}
+
+p {
+  font-family: "Intel", sans-serif;
+}
+
+.roll-In {
+  animation: roll-In 1s ease-in-out;
+  transform-origin: left center;
+}
+
+.whitespace::-webkit-scrollbar {
+  display: none;
+}
+
+.whitespace {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+@keyframes roll-In {
+  from {
+    transform: rotate(25deg) scale(0.65);
+  }
+  to {
+    transform: rotate(0deg) scale(1);
+  }
+}
